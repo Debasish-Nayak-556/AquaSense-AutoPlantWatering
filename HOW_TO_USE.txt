@@ -1,0 +1,74 @@
+# 📖 How to Use These Files
+
+## 📁 What's Inside This ZIP
+
+```
+AquaSense-Package/
+├── AquaSense-Project/
+│   ├── AutoPlantWatering.ino   ← Arduino code (upload this)
+│   └── README.md               ← Project documentation
+│
+├── GitHub-Profile-README/
+│   └── README.md               ← Your GitHub profile README
+│
+└── HOW_TO_USE.txt              ← This file
+```
+
+---
+
+## 🔌 Step 1 — Upload the Arduino Code
+
+1. Install Arduino IDE from: https://arduino.cc/en/software
+2. Open `AquaSense-Project/AutoPlantWatering.ino`
+3. Connect Arduino Uno via USB
+4. Tools → Board → Arduino Uno
+5. Tools → Port → select your COM port
+6. Click Upload (→) or press Ctrl+U
+7. Open Serial Monitor at 9600 baud to see live readings
+
+---
+
+## 🐙 Step 2 — Add Project README to GitHub
+
+1. Create a new repository on GitHub named: `AquaSense-PlantWatering`
+2. Upload `AquaSense-Project/AutoPlantWatering.ino`
+3. Upload `AquaSense-Project/README.md`
+4. Your project page will display the README automatically
+
+---
+
+## 👤 Step 3 — Set Up Your GitHub Profile README
+
+Your GitHub profile README is a special repository.
+
+1. Go to github.com and create a NEW repository
+2. Name it EXACTLY the same as your GitHub username
+   Example: if username is "Debasish-Nayak-556", repo name = "AquaSense-AutoPlantWatering"
+3. Check "Add a README file" when creating
+4. Copy the content from `GitHub-Profile-README/README.md`
+5. Paste it into the README editor on GitHub
+6. Replace ALL placeholders:
+
+   YOUR_NAME         → Debasish Nayak
+   YOUR_USERNAME     → Debasish-Nayak-556
+   YOUR_COLLEGE_NAME → Driems Polytechnic
+   YOUR_BRANCH       → Computer Science
+   YOUR_YEAR         → Final yr
+   YOUR_CITY         → Cuttack
+   YOUR_LINKEDIN     → Debasish Nayak
+   your.email@gmail  → dn193951@gmail.com
+  
+7. Commit the file — your profile page will update instantly!
+
+---
+
+## ✏️ Customization Tips
+
+- Add more projects by duplicating the project block in the profile README
+- Change badge colors by editing the hex color in the badge URLs
+- Remove sections you don't need (Instagram, etc.)
+- The GitHub Stats cards update automatically once you set your username
+
+---
+
+Good luck with your project! ⭐
